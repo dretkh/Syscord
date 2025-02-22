@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syscord.Users.Domain", "Syscord.Users.Domain\Syscord.Users.Domain.csproj", "{148119CC-947F-4F07-9426-B2133A4EED72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syscord.Users.Api", "Syscord.Users.Api\Syscord.Users.Api.csproj", "{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syscord.Users.Core", "Syscord.Users.Core\Syscord.Users.Core.csproj", "{122137BD-F562-4A00-829E-CB82DFFB2873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{148119CC-947F-4F07-9426-B2133A4EED72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{148119CC-947F-4F07-9426-B2133A4EED72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{148119CC-947F-4F07-9426-B2133A4EED72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122137BD-F562-4A00-829E-CB82DFFB2873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122137BD-F562-4A00-829E-CB82DFFB2873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122137BD-F562-4A00-829E-CB82DFFB2873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122137BD-F562-4A00-829E-CB82DFFB2873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
