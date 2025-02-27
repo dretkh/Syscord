@@ -11,7 +11,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Syscord.Users.Core\Syscord.Users.Core.csproj"/>
+        <ProjectReference Include="..\Syscord.Core\Syscord.Core.csproj" />
         <ProjectReference Include="..\Syscord.Users.Domain.Types\Syscord.Users.Domain.Types.csproj"/>
         <ProjectReference Include="..\Syscord.Users.Processing\Syscord.Users.Processing.csproj"/>
     </ItemGroup>

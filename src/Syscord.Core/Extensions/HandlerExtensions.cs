@@ -1,4 +1,4 @@
-namespace Syscord.Users.Core.Extensions;
+namespace Syscord.Core.Extensions;
 
 public static class HandlerExtensions
 {

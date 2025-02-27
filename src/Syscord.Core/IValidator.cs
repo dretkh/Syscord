@@ -1,4 +1,4 @@
-namespace Syscord.Users.Core;
+namespace Syscord.Core;
 
 public interface IValidator<TInput, TError>
 {

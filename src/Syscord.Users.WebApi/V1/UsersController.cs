@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Syscord.Users.Core;
+using Syscord.Core;
 using Syscord.Users.Service.Services;
 using Syscord.Users.Service.Services.Creation.Requests;
 using Syscord.Users.WebApi.V1.Types;

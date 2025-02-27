@@ -1,4 +1,4 @@
-using Syscord.Users.Core;
+using Syscord.Core;
 using Syscord.Users.Domain.Types;
 using Syscord.Users.Domain.Types.StorageAbstractions;
 using Syscord.Users.Service.Services.Creation.Requests;
