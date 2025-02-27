@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syscord.Users.Domain.Types", "Syscord.Users.Domain.Types\Syscord.Users.Domain.Types.csproj", "{148119CC-947F-4F07-9426-B2133A4EED72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syscord.Users.WebApi", "Syscord.Users.WebApi\Syscord.Users.WebApi.csproj", "{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syscord.Users.Core", "Syscord.Users.Core\Syscord.Users.Core.csproj", "{122137BD-F562-4A00-829E-CB82DFFB2873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syscord.Users.Processing", "Syscord.Users.Processing\Syscord.Users.Processing.csproj", "{84D76596-AE9F-4C37-94A7-5E4E3D850B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syscord.Users.Storage.Postgre", "Syscord.Users.Storage.Postgre\Syscord.Users.Storage.Postgre.csproj", "{421DB252-B3D6-4D6F-945D-21A98CCFE560}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{A01ED00C-57BB-484B-A10E-66AD308F14C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{148119CC-947F-4F07-9426-B2133A4EED72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148119CC-947F-4F07-9426-B2133A4EED72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148119CC-947F-4F07-9426-B2133A4EED72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148119CC-947F-4F07-9426-B2133A4EED72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122137BD-F562-4A00-829E-CB82DFFB2873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122137BD-F562-4A00-829E-CB82DFFB2873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122137BD-F562-4A00-829E-CB82DFFB2873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122137BD-F562-4A00-829E-CB82DFFB2873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D76596-AE9F-4C37-94A7-5E4E3D850B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D76596-AE9F-4C37-94A7-5E4E3D850B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D76596-AE9F-4C37-94A7-5E4E3D850B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D76596-AE9F-4C37-94A7-5E4E3D850B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421DB252-B3D6-4D6F-945D-21A98CCFE560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421DB252-B3D6-4D6F-945D-21A98CCFE560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421DB252-B3D6-4D6F-945D-21A98CCFE560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421DB252-B3D6-4D6F-945D-21A98CCFE560}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{122137BD-F562-4A00-829E-CB82DFFB2873} = {A01ED00C-57BB-484B-A10E-66AD308F14C1}
+		{148119CC-947F-4F07-9426-B2133A4EED72} = {A01ED00C-57BB-484B-A10E-66AD308F14C1}
+		{84D76596-AE9F-4C37-94A7-5E4E3D850B13} = {A01ED00C-57BB-484B-A10E-66AD308F14C1}
+		{421DB252-B3D6-4D6F-945D-21A98CCFE560} = {A01ED00C-57BB-484B-A10E-66AD308F14C1}
+		{EEAA5F0D-9BA6-4C02-BA5D-703D973AC693} = {A01ED00C-57BB-484B-A10E-66AD308F14C1}
+	EndGlobalSection
+EndGlobal
