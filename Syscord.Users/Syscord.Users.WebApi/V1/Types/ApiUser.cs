@@ -1,4 +1,4 @@
-namespace Syscord.Users.Api.V1.Types;
+namespace Syscord.Users.WebApi.V1.Types;
 
 public sealed class ApiUser
 {

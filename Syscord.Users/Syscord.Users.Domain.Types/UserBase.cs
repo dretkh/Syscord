@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Syscord.Users;
+namespace Syscord.Users.Domain.Types;
 
 public abstract class UserBase(IReadOnlyDictionary<string, string> requisites)
 {
