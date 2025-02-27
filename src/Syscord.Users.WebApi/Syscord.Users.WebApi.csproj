@@ -6,6 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>Syscord.Users.WebApi</RootNamespace>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <OutputPath>../../bin/Syscord.Users.WebApi/</OutputPath>
     </PropertyGroup>
 
     <ItemGroup>

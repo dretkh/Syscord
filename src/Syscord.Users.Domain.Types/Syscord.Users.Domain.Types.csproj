@@ -5,6 +5,8 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <RootNamespace>Syscord.Users.Domain.Types</RootNamespace>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <OutputPath>../../bin/lib/Syscord.Users.Domain.Types/</OutputPath>
     </PropertyGroup>
 
     <ItemGroup>

@@ -6,6 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>Syscord.Users.Service</RootNamespace>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <OutputPath>../../bin/lib/Syscord.Users.Processing/</OutputPath>
     </PropertyGroup>
 
     <ItemGroup>
