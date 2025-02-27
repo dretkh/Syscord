@@ -5,11 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-        <OutputPath>../../bin/lib/Syscord.Users.Core/</OutputPath>
+        <OutputPath>../../bin/lib/Syscord.Core/</OutputPath>
     </PropertyGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Autofac" Version="8.2.0"/>
-    </ItemGroup>
 
 </Project>

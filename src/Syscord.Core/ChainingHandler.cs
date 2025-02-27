@@ -1,4 +1,4 @@
-namespace Syscord.Users.Core;
+namespace Syscord.Core;
 
 public sealed class ChainingHandler<TIn, TMiddle, TOut>(
     IHandler<TIn, TMiddle> left,

@@ -1,4 +1,4 @@
-namespace Syscord.Users.Core;
+namespace Syscord.Core;
 
 // TODO
 // It's going to be a representation of exception in whole system.

@@ -1,5 +1,5 @@
-using Syscord.Users.Core;
-using Syscord.Users.Core.Extensions;
+using Syscord.Core;
+using Syscord.Core.Extensions;
 using Syscord.Users.Domain.Types;
 using Syscord.Users.Service.Services.Creation.Requests;
 

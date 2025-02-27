@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Optional;
 using Optional.Collections;
-using Syscord.Users.Core;
+using Syscord.Core;
 using Syscord.Users.Domain.Types;
 using Syscord.Users.Domain.Types.StorageAbstractions;
 using Syscord.Users.Storage.Postgre.Entities;

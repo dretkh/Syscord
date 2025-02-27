@@ -1,4 +1,4 @@
-namespace Syscord.Users.Core;
+namespace Syscord.Core;
 
 public interface IHandler<in TRequest, TResponse>
 {
