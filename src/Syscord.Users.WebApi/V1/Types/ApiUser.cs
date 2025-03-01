@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace Syscord.Users.WebApi.V1.Types;
 
 public sealed class ApiUser

@@ -1,3 +1,4 @@
+using System.Linq;
 using Syscord.Core;
 using Syscord.Users.Domain.Types;
 using Syscord.Users.WebApi.V1.Types;

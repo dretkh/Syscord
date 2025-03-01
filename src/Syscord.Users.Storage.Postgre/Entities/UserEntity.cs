@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace Syscord.Users.Storage.Postgre.Entities;
 
 public sealed class UserEntity

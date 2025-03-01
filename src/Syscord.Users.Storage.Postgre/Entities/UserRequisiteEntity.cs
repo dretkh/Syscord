@@ -1,3 +1,5 @@
+using System;
+
 namespace Syscord.Users.Storage.Postgre.Entities;
 
 public sealed class UserRequisiteEntity

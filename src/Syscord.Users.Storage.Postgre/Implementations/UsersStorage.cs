@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Optional;
 using Optional.Collections;
@@ -16,15 +20,15 @@ public sealed class UsersStorage(UsersDbContext dbContext, IConverter<User, User
 
     public async Task CreateAsync(User user)
     {
-        dbContext.Add(userConverter.Serialize(user));
+        dbContext.Users.Add(userConverter.Serialize(user));
         await dbContext.SaveChangesAsync().ConfigureAwait(false);
     }
 
     public async Task<IReadOnlyCollection<User>> GetByRequisiteAsync(Requisite requisite)
         => await dbContext.UserRequisites
+            .AsNoTracking()
             .Where(x => x.Name == requisite.Name && x.Value == requisite.Value)
             .Include(x => x.User)
-            .AsNoTracking()
             .AsAsyncEnumerable()
             .Select(Convert)
             .ToListAsync();
@@ -37,9 +41,9 @@ public sealed class UsersStorage(UsersDbContext dbContext, IConverter<User, User
     public async Task<Option<User>> GetAsync(Guid id)
     {
         var result = await dbContext.Users
+            .AsNoTracking()
             .Where(x => x.Id == id)
             .Include(x => x.Requisites)
-            .AsNoTracking()
             .AsAsyncEnumerable()
             .Select(userConverter.Deserialize)
             .ToListAsync();
@@ -49,8 +53,8 @@ public sealed class UsersStorage(UsersDbContext dbContext, IConverter<User, User
 
     public IAsyncEnumerable<User> GetAllAsync()
         => dbContext.Users
-            .Include(x => x.Requisites)
             .AsNoTracking()
+            .Include(x => x.Requisites)
             .AsAsyncEnumerable()
             .Select(userConverter.Deserialize);
 }
