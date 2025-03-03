@@ -2,21 +2,21 @@ using System.Threading;
 using System.Threading.Tasks;
 using Confluent.Kafka;
 
-namespace Syscord.Messaging.Kafka;
+namespace Syscord.Messaging.Kafka.Producer;
 
 public sealed class KafkaProducer<TKey, TMessage>(
-    KafkaConfiguration configuration,
+    KafkaProducerConfiguration producerConfiguration,
     ISerializer<TKey> keySerializer,
     ISerializer<TMessage> messageSerializer)
     : IKafkaProducer<TKey, TMessage>
 {
     private readonly IProducer<TKey, TMessage> producer =
-        new ProducerBuilder<TKey, TMessage>(configuration.ProducerConfig)
+        new ProducerBuilder<TKey, TMessage>(producerConfiguration.ProducerConfig)
             .SetKeySerializer(keySerializer)
             .SetValueSerializer(messageSerializer)
             .Build();
 
-    private readonly string topic = configuration.Topic;
+    private readonly string topic = producerConfiguration.Topic;
 
     public async Task ProduceAsync(TKey key, TMessage message, CancellationToken token)
     {

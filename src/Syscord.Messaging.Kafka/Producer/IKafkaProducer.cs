@@ -1,7 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Syscord.Messaging.Kafka;
+namespace Syscord.Messaging.Kafka.Producer;
 
 public interface IKafkaProducer<TKey, TMessage>
 {
